@@ -1,0 +1,18 @@
+# Xcode & Build
+build/
+*.xcarchive
+*.ipa
+*.mobiledevicepairing
+*.plist.bak
+.DS_Store
+xcuserdata/
+
+# Rust
+Rust/myloc-engine/target/
+
+# SwiftPM
+MyLocCore/.build/
+MyLocCore/.swiftpm/
+
+# XCFramework (rebuilt via scripts/build-rust-xcframework.sh)
+Frameworks/

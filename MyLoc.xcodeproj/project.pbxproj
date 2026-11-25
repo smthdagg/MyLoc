@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61C09C2F6AAA36D6441A5439 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874F617538D1E50EB9356E7 /* AppViewModel.swift */; };
+		8EC3CD717E8657CA1F31EAD0 /* AutoPairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5E95914331CB134E23D687 /* AutoPairingView.swift */; };
+		2B466AB7B806327D3132DC7B /* BackgroundKeepAlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DAAF44EFD748D659803787 /* BackgroundKeepAlive.swift */; };
+		A63CAF7D550B3B5B106F5E38 /* BonjourDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279EF9664FCBF776D19D58AC /* BonjourDiscovery.swift */; };
+		611B61F51013165AACC2993C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38980FE0A2034F7B700E036 /* MainView.swift */; };
+		28273CBCB402F1CEEECB5EE3 /* MyLocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AB411B5BBFC1283D1DB9D /* MyLocApp.swift */; };
+		0E04357E0F861A8DF071F66F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA9B9638E55DE8623EE2A1 /* OnboardingView.swift */; };
+		0FA9B21BFAD2664CB7CFDEF2 /* PlacesSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7060B55B138EDE73E4DDAA /* PlacesSheetView.swift */; };
+		56A9F9AA801727D18FE9D532 /* RouteSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A73EA261307FAAD67683CB /* RouteSheetView.swift */; };
+		F5B7E8D1889C2CFA76C3E1E3 /* RustLocationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C3C06485B50E6A70764671 /* RustLocationEngine.swift */; };
+		4F82712B23F9500B74769638 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3415FB00BBEA9F234F9EB26D /* SettingsView.swift */; };
+		BCDEA934D2501353B4C4CE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDBAC21689581B04CB7ABB5 /* Assets.xcassets */; };
+		C44E06CA9E07AC2FE1D1AC8B /* MyLocEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D17C3C545E9CB7EBDA8F08 /* MyLocEngine.xcframework */; };
+		6BAFE38C1CE3795B18B5FA6F /* MyLocCore in Frameworks */ = {isa = PBXBuildFile; productRef = 37E0733E8134CAE72914820A /* MyLocCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE49488267B45BD6FBEB88CF /* MyLoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB6BD64A997C517BC11CC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyLocApp/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		CFDBAC21689581B04CB7ABB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MyLocApp/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		B3D17C3C545E9CB7EBDA8F08 /* MyLocEngine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLocEngine.xcframework; path = Frameworks/MyLocEngine.xcframework; sourceTree = SOURCE_ROOT; };
+		1874F617538D1E50EB9356E7 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppViewModel.swift"; path = "MyLocApp/Sources/AppViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		DD5E95914331CB134E23D687 /* AutoPairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AutoPairingView.swift"; path = "MyLocApp/Sources/AutoPairingView.swift"; sourceTree = SOURCE_ROOT; };
+		D5DAAF44EFD748D659803787 /* BackgroundKeepAlive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BackgroundKeepAlive.swift"; path = "MyLocApp/Sources/BackgroundKeepAlive.swift"; sourceTree = SOURCE_ROOT; };
+		279EF9664FCBF776D19D58AC /* BonjourDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BonjourDiscovery.swift"; path = "MyLocApp/Sources/BonjourDiscovery.swift"; sourceTree = SOURCE_ROOT; };
+		B38980FE0A2034F7B700E036 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MainView.swift"; path = "MyLocApp/Sources/MainView.swift"; sourceTree = SOURCE_ROOT; };
+		289AB411B5BBFC1283D1DB9D /* MyLocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MyLocApp.swift"; path = "MyLocApp/Sources/MyLocApp.swift"; sourceTree = SOURCE_ROOT; };
+		8EBA9B9638E55DE8623EE2A1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OnboardingView.swift"; path = "MyLocApp/Sources/OnboardingView.swift"; sourceTree = SOURCE_ROOT; };
+		8A7060B55B138EDE73E4DDAA /* PlacesSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlacesSheetView.swift"; path = "MyLocApp/Sources/PlacesSheetView.swift"; sourceTree = SOURCE_ROOT; };
+		59A73EA261307FAAD67683CB /* RouteSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RouteSheetView.swift"; path = "MyLocApp/Sources/RouteSheetView.swift"; sourceTree = SOURCE_ROOT; };
+		87C3C06485B50E6A70764671 /* RustLocationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RustLocationEngine.swift"; path = "MyLocApp/Sources/RustLocationEngine.swift"; sourceTree = SOURCE_ROOT; };
+		3415FB00BBEA9F234F9EB26D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettingsView.swift"; path = "MyLocApp/Sources/SettingsView.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5BDB0BEAFE176F9629192A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAFE38C1CE3795B18B5FA6F /* MyLocCore in Frameworks */,
+				C44E06CA9E07AC2FE1D1AC8B /* MyLocEngine.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCF10F76EBF2A74473E9DC4 = {
+			isa = PBXGroup;
+			children = (
+				9642F1047C1002A1EE72F0DB /* Sources */,
+				3FB6BD64A997C517BC11CC6E /* Info.plist */,
+				CFDBAC21689581B04CB7ABB5 /* Assets.xcassets */,
+				ED2F3B048716C9DC7573911C /* Frameworks */,
+				00C45FD35CB0F9C5F764F070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9642F1047C1002A1EE72F0DB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1874F617538D1E50EB9356E7 /* AppViewModel.swift */,
+				DD5E95914331CB134E23D687 /* AutoPairingView.swift */,
+				D5DAAF44EFD748D659803787 /* BackgroundKeepAlive.swift */,
+				279EF9664FCBF776D19D58AC /* BonjourDiscovery.swift */,
+				B38980FE0A2034F7B700E036 /* MainView.swift */,
+				289AB411B5BBFC1283D1DB9D /* MyLocApp.swift */,
+				8EBA9B9638E55DE8623EE2A1 /* OnboardingView.swift */,
+				8A7060B55B138EDE73E4DDAA /* PlacesSheetView.swift */,
+				59A73EA261307FAAD67683CB /* RouteSheetView.swift */,
+				87C3C06485B50E6A70764671 /* RustLocationEngine.swift */,
+				3415FB00BBEA9F234F9EB26D /* SettingsView.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		ED2F3B048716C9DC7573911C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D17C3C545E9CB7EBDA8F08 /* MyLocEngine.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00C45FD35CB0F9C5F764F070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE49488267B45BD6FBEB88CF /* MyLoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F899AF7B793E6F2C3BDF97 /* MyLoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A2B497FA98060CD1B56AC /* Build configuration list for PBXNativeTarget "MyLoc" */;
+			buildPhases = (
+				1CDF2F71A52B082132B04DFF /* Sources */,
+				CF5BDB0BEAFE176F9629192A /* Frameworks */,
+				C02F1309AF4906C92F1EAD44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLoc;
+			packageProductDependencies = (
+				37E0733E8134CAE72914820A /* MyLocCore */,
+			);
+			productName = MyLoc;
+			productReference = CE49488267B45BD6FBEB88CF /* MyLoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03ACE07AF2AA3EEC85A37418 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D29D9F3A882C4202964FB56 /* Build configuration list for PBXProject "MyLoc" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = ADCF10F76EBF2A74473E9DC4;
+			packageReferences = (
+				5CB67E9AC2BB286DD6F43290 /* XCLocalSwiftPackageReference "MyLocCore" */,
+			);
+			productRefGroup = 00C45FD35CB0F9C5F764F070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F899AF7B793E6F2C3BDF97 /* MyLoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02F1309AF4906C92F1EAD44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDEA934D2501353B4C4CE9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDF2F71A52B082132B04DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61C09C2F6AAA36D6441A5439 /* AppViewModel.swift in Sources */,
+				8EC3CD717E8657CA1F31EAD0 /* AutoPairingView.swift in Sources */,
+				2B466AB7B806327D3132DC7B /* BackgroundKeepAlive.swift in Sources */,
+				A63CAF7D550B3B5B106F5E38 /* BonjourDiscovery.swift in Sources */,
+				611B61F51013165AACC2993C /* MainView.swift in Sources */,
+				28273CBCB402F1CEEECB5EE3 /* MyLocApp.swift in Sources */,
+				0E04357E0F861A8DF071F66F /* OnboardingView.swift in Sources */,
+				0FA9B21BFAD2664CB7CFDEF2 /* PlacesSheetView.swift in Sources */,
+				56A9F9AA801727D18FE9D532 /* RouteSheetView.swift in Sources */,
+				F5B7E8D1889C2CFA76C3E1E3 /* RustLocationEngine.swift in Sources */,
+				4F82712B23F9500B74769638 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E3EBCBBFB33611052F1F254E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		45A51FDE45C8C9313F9CC216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		9586E89FBE346731A8FAC1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyLocApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myloc.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C08309BB1D0C93C4165F9DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyLocApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myloc.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D29D9F3A882C4202964FB56 /* Build configuration list for PBXProject "MyLoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EBCBBFB33611052F1F254E /* Debug */,
+				45A51FDE45C8C9313F9CC216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28A2B497FA98060CD1B56AC /* Build configuration list for PBXNativeTarget "MyLoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9586E89FBE346731A8FAC1E8 /* Debug */,
+				C08309BB1D0C93C4165F9DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5CB67E9AC2BB286DD6F43290 /* XCLocalSwiftPackageReference "MyLocCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyLocCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37E0733E8134CAE72914820A /* MyLocCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CB67E9AC2BB286DD6F43290 /* XCLocalSwiftPackageReference "MyLocCore" */;
+			productName = MyLocCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 03ACE07AF2AA3EEC85A37418 /* Project object */;
+}

@@ -1,0 +1,4 @@
+module MyLocEngineFFI {
+    header "myloc_engine.h"
+    export *
+}

@@ -1,0 +1,25 @@
+[package]
+name = "myloc-engine"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Independent Rust location simulation engine for MyLoc built on idevice"
+
+[lib]
+name = "myloc_engine"
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+idevice = { version = "0.1.68", default-features = false, features = [
+    "ring",
+    "dvt",
+    "rsd",
+    "location_simulation",
+    "core_device_proxy",
+    "remote_pairing",
+    "tcp",
+    "tunnel_tcp_stack",
+    "usbmuxd",
+] }
+plist = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "time", "sync"] }
